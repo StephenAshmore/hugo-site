@@ -1,4 +1,4 @@
-baseurl = "ashmore.io"
+baseurl = "http://ashmore.io/"
 languageCode = "en-us"
 title = "Stephen Ashmore"
 
@@ -24,8 +24,9 @@ paginate = 10
 	[params.sidebar]
 		# Replace the avatar with a picture of your own under static/images
 		avatar = "avatar.JPG"
+		background = "background.jpg"
 		# Use Markdown to format the string. This works nearly all over the theme
-		bio = "I'm **Stephen Ashmore** a Machine Learning PhD student at the University of Arkansas."
+		bio = "I'm **Stephen Ashmore** a Machine Learning PhD Candidate at the University of Arkansas."
 		# The icons will be shown if you enter your username
 		twitter = ""
 		github = "StephenAshmore"
@@ -33,12 +34,12 @@ paginate = 10
 		facebook = ""
 		googleplus = ""
 		flickr = ""
-		linkedin = ""
+		linkedin = "StephenCAshmore"
 
 		copyright = [
 			"&copy; Stephen Ashmore",
 			"Design: [Fork](www.github.com/StephenAshmore)ed from [HTML5 UP](//html5up.net)",
-			# "Demo Images: [Unsplash](//unsplash.com/)"
+			"Images: [Unsplash](//unsplash.com/)"
 		]
 
 	[params.about]
@@ -58,6 +59,11 @@ paginate = 10
 	name = "Home"
 	url  = "/"
 	weight = 0
+
+[[menu.main]]
+	name = "Resume"
+	url = "StephenAshmoreResume.html"
+	weight = 6
 
 [[menu.main]]
 	name = "CV"
